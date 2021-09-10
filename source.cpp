@@ -3,6 +3,9 @@
 
 #include "./header_files/bubble_sort.h"
 #include "./header_files/insertion_sort.h"
+#include "./header_files/merge_sort.h"
+#include "./header_files/quick_sort.h"
+#include "./header_files/twist_sort.h"
 
 using namespace std;
 
@@ -40,23 +43,23 @@ int main()
 
 		switch(curr) {
 			case _bubble_sort:
-				print<int>(bubble_sort<int>(arr, size), size);
+				print<int>(bubble_sort(arr, size), size);
 				break;
 
 			case _insertion_sort:
-				print<int>(insertion_sort<int>(arr, size), size);
+				print<int>(insertion_sort(arr, size), size);
 				break;
 
 			case _merge_sort:
-				print<int>(bubble_sort<int>(arr, size), size);
+				print<int>(merge_sort(arr, size), size);
 				break;
 
 			case _quick_sort:
-				print<int>(bubble_sort<int>(arr, size), size);
+				print<int>(quick_sort(arr, size), size);
 				break;
 
 			case _twist_sort:
-				print<int>(bubble_sort<int>(arr, size), size);
+				print<int>(twist_sort(arr, size), size);
 				break;
 
 			default:
