@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 
-template<typename T>
-T* bubble_sort(T* arr, int size) {
+int* bubble_sort(int* arr, int size) {
 	
-	T* store = new T[size];
+	int* store = new int[size];
 	for(int index = 0 ; index < size ; ++index) {
 		store[index] = arr[index];
 	}
