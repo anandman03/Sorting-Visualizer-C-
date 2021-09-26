@@ -2,12 +2,12 @@
 
 ### Performance Comparison
 
-5 1000 100000000
-bubble_sort took: 2 microseconds
-insertion_sort took: 1 microseconds
-merge_sort took: 3 microseconds
-quick_sort took: 2 microseconds
-twist_sort took: 3 microseconds
+5 1000 100000000 \\
+bubble_sort took: 2 microseconds \\
+insertion_sort took: 1 microseconds \\
+merge_sort took: 3 microseconds \\
+quick_sort took: 2 microseconds \\
+twist_sort took: 3 microseconds \\
 
 10 1000 100000000
 bubble_sort took: 4 microseconds
